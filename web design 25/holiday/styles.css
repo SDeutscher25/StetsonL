@@ -1,0 +1,71 @@
+body {
+    background-image: url("backgroundimage1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+h1,
+h2,
+h3 {
+    text-align: center;
+    font-family: "Copperplate";
+}
+p {
+    text-align: center;
+    font-size: 15px;
+}
+table {
+    font-size: 15px;
+}
+td,
+th {
+    border-bottom: 2px solid black;
+    text-align: center;
+    padding: 15px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th {
+    font-family: "Copperplate";
+    font-size: 20px;
+}
+td {
+    font-family: "Courier New";
+    font-size: 12px;
+    font-weight: 600;
+}
+hr {
+    border: 1px solid;
+    border-color: black;
+}
+img {
+    border: 2px solid;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+ol {
+    text-align: center;
+    font-size: 15px;
+    font-style: oblique;
+    font-family: "Courier New";
+}
+a{
+    background-color: coral;
+    border: 2px solid;
+    border-color: black;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
