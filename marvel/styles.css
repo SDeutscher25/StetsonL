@@ -25,7 +25,12 @@ table {
     width: 100%;
     vertical-align: middle;
 }
-
+th{
+    font-size: 30px;
+}
+td{
+    font-size: 20px;
+}
 td,
 th {
     border-bottom: 2px solid black;
@@ -39,12 +44,11 @@ ol {
     margin-right: 400px;
     margin-left: 400px;
 }
+img{
+    border: 2px solid black;
+}
 body {
-    background-image: url("marvelbackground.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
+    background-color: lightgrey
 }
 button {
     display: block;
@@ -60,6 +64,7 @@ button {
     font-family: copperplate;
     text-align: center;
     font-size: large;
+    border: 3px solid black;
 }
 button:hover {
     opacity: 1;
@@ -85,7 +90,7 @@ button:hover {
     height: 100px;
     position: relative;
 }
-.center {
+.centerdiv {
     margin: 0;
     position: absolute;
     top: 50%;

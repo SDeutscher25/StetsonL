@@ -1,4 +1,106 @@
-h1, h2, h3, p, td, ul, ol, table{
+h1,
+h2,
+h3,
+p,
+td,
+ul,
+ol,
+table {
     text-align: center;
-    font-family: Verdana;
+    font-family: "Times New Roman";
+    text-shadow:
+        -1px 0 white,
+        0 1px white,
+        1px 0 white,
+        0 -1px white;
+}
+ul {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 400px;
+    margin-left: 400px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    vertical-align: middle;
+}
+th{
+    font-size: 30px;
+}
+td{
+    font-size: 20px;
+}
+td,
+th {
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    text-align: center;
+    padding: 10px;
+}
+ol {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 400px;
+    margin-left: 400px;
+}
+body {
+   background-color: lightgrey;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+    height: 100px;
+    text-shadow:
+        -1px 0 white,
+        0 1px white,
+        1px 0 white,
+        0 -1px white;
+    color: black;
+    font-family: copperplate;
+    text-align: center;
+    font-size: large;
+    border: 3px solid black;
+}
+button:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+.button1 {
+    opacity: 50%;
+}
+.button2 {
+    background-image: url("captainamericabutton.png");
+    opacity: 50%;
+}
+.button3 {
+    background-image: url("spidermanbuttons.jpeg");
+    opacity: 50%;
+}
+.button4 {
+    background-image: url("blackpantherbutton.png");
+    opacity: 50%;
+}
+.container {
+    height: 100px;
+    position: relative;
+}
+.centerdiv {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.centerimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.centertable{
+  margin-left: auto;
+  margin-right: auto;
 }
