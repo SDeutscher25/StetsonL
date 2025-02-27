@@ -1,0 +1,65 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', monospace;
+    color: white;
+    background-image: url(starsbackground.webp);
+    width: ;
+    margin: ;
+}
+
+h1 {
+    font-size: ;
+    text-align: ;
+}
+
+h2 {
+    text-align: ;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+
+nav li {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50px;    
+}
+
+.photo img {
+    width: ;
+    border-radius: ;  
+}
+
+.thumbs img {
+    height: 
+    border-radius: ;    
+}
+
+.droid {
+    background-color: ;
+    padding: ;
+    margin: ;
+    border: ;
+    border-radius: ; 
+}
+
+.droid .photo {
+    float: ;
+    margin: ;
+}
+
+.droid:nth-child(even) .photo {
+   
+}
+
+.desc {
+    margin: 1
+}
+
+.droid .thumbs {
+   
+}
+
