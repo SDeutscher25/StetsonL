@@ -21,12 +21,12 @@ ul {
     text-align: center;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 nav li {
     background-color: white;
-    margin: auto;
+    margin: 25px;
     padding: 10px;
     border-radius: 30px;
 }
