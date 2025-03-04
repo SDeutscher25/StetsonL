@@ -62,3 +62,6 @@ nav li {
 .desc {
     margin: auto;
 }
+.droid .thumbs {
+    clear: left;
+}
