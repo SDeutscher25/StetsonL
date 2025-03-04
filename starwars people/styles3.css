@@ -110,17 +110,17 @@
 #finn .eyes {
   position: absolute;
   top: 30px;
-  width: 10px;
+  width: 24px;
   height: 10px;
   background: #2f1d16;
   border-radius: 50%;
-  left: 25%;
+  left: 36%;
   transform: translateX(-50%);
 }
 #finn .eyes:after {
   content: "";
   position: absolute;
-  width: 10px;
+  width: 24px;
   height: 10px;
   background: #2f1d16;
   top: 0;
@@ -132,16 +132,16 @@
   left: 50%;
   transform: translateX(-50%);
   width: 8px;
-  height: 14px;
+  height: 36px;
   background: #744737;
-  top: 31px;
+  top: 18px;
   border-radius: 4px;
 }
 #finn .mouth {
   position: absolute;
   background: #2f1d16;
   width: 30px;
-  height: 4px;
+  height: 17px;
   border-radius: 0 0 5px 5px;
   top: 55px;
   left: 50%;
@@ -295,17 +295,17 @@
   position: absolute;
   z-index: 2;
   width: 30px;
-  height: 60px;
+  height: 104px;
   border-radius: 12px;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 46%;
+  transform: translateX(-32%);
   top: 110px;
   background: #e89b84;
 }
 #rey .eyes {
   position: absolute;
-  top: 34px;
-  width: 10px;
+  top: 16px;
+  width: 17px;
   height: 10px;
   background: #424b54;
   border-radius: 50%;
@@ -326,10 +326,10 @@
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  width: 8px;
+  width: 12px;
   height: 14px;
   background: #DB9B99;
-  top: 36px;
+  top: 24px;
   border-radius: 4px;
 }
 #rey .mouth {
@@ -407,7 +407,7 @@
   width: 100px;
   height: 150px;
   background: #269eea;
-  top: 130px;
+  top: 62px;
   left: 50%;
   transform: translateX(-50%);
   border-radius: 40px;
@@ -495,7 +495,7 @@
   height: 61px;
   background: #35302D;
   border-radius: 50% 50% 0 0;
-  top: 35px;
+  top: 0px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 4;
@@ -536,7 +536,7 @@
   height: 80px;
   background: #35302D;
   border-radius: 50% 50% 10px 10px;
-  top: 35px;
+  top: -7px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 2;
@@ -567,7 +567,7 @@
   height: 14px;
   left: 50%;
   transform: translateX(-50%);
-  top: 110px;
+  top: 94px;
   z-index: 10;
 }
 #poe .helmet-face:before {
@@ -639,8 +639,8 @@
 #poe .visor {
   position: absolute;
   width: 100%;
-  height: 22px;
-  top: 29px;
+  height: 104px;
+  top: -3px;
   background: rgba(245, 124, 0, 0.3);
 }
 #poe .neck {
@@ -964,7 +964,7 @@
 #kylo .hood {
   position: absolute;
   background: #191919;
-  top: 65px;
+  top: 225px;
   left: 50%;
   transform: translateX(-50%);
   width: 70px;
@@ -1008,7 +1008,7 @@
   width: 100px;
   height: 30px;
   background: #272727;
-  top: 130px;
+  top: 227px;
   left: 50%;
   transform: translateX(-50%);
   border-radius: 50%;
@@ -1019,7 +1019,7 @@
   height: 150px;
   background: #343434;
   top: 130px;
-  left: 50%;
+  left: 186%;
   transform: translateX(-50%);
   border-radius: 40px 40px 0 0;
   overflow: hidden;
@@ -1058,22 +1058,22 @@
 #kylo .mask-1 {
   position: absolute;
   width: 80px;
-  height: 40px;
+  height: 52px;
   background: #bbbbbb;
-  top: 0;
+  top: -18px;
   left: -10px;
   border-radius: 50% 50% 100% 100%;
 }
 #kylo .mask-2 {
   position: absolute;
-  width: 75px;
+  width: 180px;
   height: 40px;
   background: #bbbbbb;
   border-top: 2px solid #191919;
   border-left: 2px solid #191919;
   border-right: 2px solid #191919;
-  top: 3px;
-  left: -8px;
+  top: 10px;
+  left: -55px;
   border-radius: 50% 50% 100% 100%;
 }
 #kylo .eyes {
@@ -1305,7 +1305,7 @@
   width: 44px;
   height: 25px;
   border-radius: 100% 100px;
-  left: 60px;
+  left: 73px;
   top: 26px;
   background: #e96e48;
   z-index: 3;
