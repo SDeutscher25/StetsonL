@@ -1,0 +1,5 @@
+.container{
+    display: grid ; 
+    grid-template: 7fr / 7fr;
+    border: 2px black;
+}
