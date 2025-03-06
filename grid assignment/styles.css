@@ -1,7 +1,15 @@
 .container {
     display: grid;
-    grid-template: 1fr 1fr 1fr 1fr 1fr 1fr 1fr/ 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(7, 150px);
+    grid-template-rows: repeat(7, 150px);
+    gap: 0px;
+    width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
 }
 div {
     border: solid 1px black;
+}
+.wind{
+    grid-area: 1 / 5 / 1 / 8;
 }
