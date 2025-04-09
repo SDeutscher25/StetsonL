@@ -3,7 +3,9 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #0a0a0a;
+    background-image: url(background2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     margin: 0;
     overflow: hidden;
 }
@@ -146,8 +148,8 @@ body {
     width: 100px;
     transform-style: preserve-3d;
     animation: rotate 5s infinite linear;
-    animation-name: rotate;
-    left: -300px;
+    animation-name: arrowrotate;
+    height: 407px;
 }
 .arrow:hover div {
     box-shadow: 0 0 40px lightblue;
@@ -172,11 +174,11 @@ body {
     height: 48px;
     transform: rotate(45deg);
 }
-@keyframes rotate1 {
+@keyframes arrowrotate {
     0% {
-        transform: rotateX(0) rotateZ(0) transformZ(0);
+        transform: rotateX(0) rotateZ(0);
     }
     100% {
-        transform: rotateX(360deg) rotateZ(360deg) transformZ(90px);
+        transform: rotateX(360deg) rotateZ(360deg);
     }
 }

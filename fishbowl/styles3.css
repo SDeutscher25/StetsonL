@@ -1,0 +1,326 @@
+body {
+    background-color: #163040;
+    background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle opacity="0.5" fill="%23FFFFFF" cx="28.75" cy="22.338" r="0.713"/><circle opacity="0.2" fill="%23FFFFFF" cx="26.75" cy="79.443" r="0.307"/><circle opacity="0.5" fill="%23FFFFFF" cx="50" cy="41.884" r="0.308"/><circle fill="%23FFFFFF" cx="12.883" cy="42.25" r="0.367"/><circle opacity="0.4" fill="%23FFFFFF" cx="80" cy="72.818" r="0.307"/><circle opacity="0.5" fill="%23FFFFFF" cx="55.625" cy="12.375" r="0.308"/><circle opacity="0.2" fill="%23FFFFFF" cx="73.307" cy="89.375" r="0.308"/><circle opacity="0.5" fill="%23FFFFFF" cx="73" cy="53.884" r="0.308"/><circle opacity="0.5" fill="%23FFFFFF" cx="38.875" cy="89.432" r="0.385"/></svg>');
+    background-size: 20rem 20rem;
+    background-position: center 0;
+    animation: bg 2s linear infinite;
+    overflow: hidden;
+}
+.links {
+    position: absolute;
+    margin-left: 75%;
+    text-align: center;
+    font-family: Slackey;
+}
+.box1 {
+    background-color: lightblue;
+    border: 2px solid orange;
+    border-radius: 40% 20%;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.box2 {
+    background-color: lightblue;
+    border: 2px solid orange;
+    border-radius: 40% 20%;
+    margin-top: 20px;
+    padding: 10px;
+}
+.box3 {
+    background-color: lightblue;
+    border: 2px solid orange;
+    border-radius: 40% 20%;
+    margin-top: 20px;
+    padding: 10px;
+}
+.ship {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 3rem;
+    height: 3rem;
+    margin: auto;
+    animation: move 2s linear infinite alternate;
+    z-index: 2;
+}
+.body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #e3e3e3;
+    box-shadow: inset 0 -5px 5px rgba(22, 48, 64, 0.5);
+    z-index: 2;
+}
+.cape{
+    z-index: 1;
+    position: absolute;
+    border-bottom: 73px solid #cc0000;
+      border-left: 30px solid transparent;
+      border-right: 30px solid transparent;
+      height: 0;
+      width: 25px;
+    left: -18px;
+    top: 10px;
+}
+.eyes {
+    z-index: 2;
+    width: 1rem;
+    position: relative;
+    top: 1.5rem;
+    left: 1rem;
+    animation: eyes 2s ease-in-out infinite alternate;
+}
+.eye_1,
+.eye_2 {
+    z-index: 2;
+    position: absolute;
+    display: block;
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 50%;
+    background-color: #163040;
+    animation: eye 2s ease-in-out infinite alternate;
+}
+.eye_2 {
+    right: 0;
+}
+.foot_1,
+.foot_2,
+.foot_3 {
+    z-index: 2;
+    position: absolute;
+    top: 1.5rem;
+    width: 0.4rem;
+    height: 3rem;
+    border-radius: 50%;
+    background: linear-gradient(rgba(227, 227, 227, 0.6), rgba(227, 227, 227, 0.3));
+    opacity: 0.5;
+}
+.foot_1 {
+    transform: rotate(25deg);
+}
+.foot_2 {
+    top: 2rem;
+    width: 0.37rem;
+    left: 1.315rem;
+    background: linear-gradient(rgba(227, 227, 227, 0.7) 75%, rgba(227, 227, 227, 0.3));
+    opacity: 0.8;
+}
+.foot_3 {
+    transform: rotate(-25deg);
+    right: 0;
+    background: linear-gradient(rgba(227, 227, 227, 0.6), rgba(227, 227, 227, 0.3));
+}
+
+.ship1 {
+    position: absolute;
+    top: -349px;
+    bottom: 0;
+    left: -451px;
+    right: 0;
+    width: 2rem;
+    height: 6rem;
+    margin: auto;
+    animation: move 2s linear infinite alternate;
+    z-index: 2;
+}
+.body1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: rgb(231, 181, 102);
+    box-shadow: inset 0 -5px 5px rgba(22, 48, 64, 0.5);
+    z-index: 2;
+}
+.eyes1 {
+    z-index: 2;
+    width: 1rem;
+    position: relative;
+    top: 2.4rem;
+    left: .55rem;
+    animation: eyes 2s ease-in-out infinite alternate;
+}
+.eye1_1,
+.eye1_2 {
+    z-index: 2;
+    position: absolute;
+    display: block;
+    width: 0.2rem;
+    height: 0.4rem;
+    border-radius: 50%;
+    background-color: #163040;
+    animation: eye 2s ease-in-out infinite alternate;
+}
+.eye1_2 {
+    right: 0;
+}
+.foot1_1,
+.foot1_2,
+.foot1_3 {
+    z-index: 2;
+    position: absolute;
+    top: 5.2rem;
+    width: 0.4rem;
+    height: 3rem;
+    border-radius: 50%;
+    background: linear-gradient(rgb(231, 181, 102), rgb(231, 181, 102));
+    opacity: 0.5;
+}
+.foot1_1 {
+    transform: rotate(25deg);
+}
+.foot1_2 {
+    top: 5.3rem;
+    width: 0.37rem;
+    left: 0.79rem;
+    background: linear-gradient(rgb(231, 181, 102) 75%, rgb(231, 181, 102));
+    opacity: 0.8;
+}
+.foot1_3 {
+    transform: rotate(-25deg);
+    right: 0;
+    background: linear-gradient(rgb(231, 181, 102), rgb(231, 181, 102));
+}
+
+.ship2 {
+    position: absolute;
+    top: 426px;
+    bottom: 0;
+    left: 517px;
+    right: 0;
+    width: 14rem;
+    height: 5rem;
+    margin: auto;
+    animation: move 2s linear infinite alternate;
+    z-index: 2;
+}
+.body2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 35%;
+    background-color: rgb(217, 102, 231);
+    box-shadow: inset 0 -5px 5px rgba(22, 48, 64, 0.5);
+    z-index: 2;
+}
+.eyes2 {
+    z-index: 2;
+    width: 12rem;
+    position: relative;
+    top: 2.4rem;
+    left: 1rem;
+    animation: eyes 6s ease-in-out infinite alternate;
+}
+.eye2_1,
+.eye2_2 {
+    z-index: 2;
+    position: absolute;
+    display: block;
+    width: 0.7rem;
+    height: 0.8rem;
+    border-radius: 22%;
+    background-color: #163040;
+    animation: eye 6s ease-in-out infinite alternate;
+}
+.eye2_2 {
+    right: 0;
+}
+.foot2_1,
+.foot2_2,
+.foot2_3 {
+    z-index: 2;
+    position: absolute;
+    top: 3.8rem;
+    width: 0.4rem;
+    height: 3rem;
+    border-radius: 50%;
+    background: linear-gradient(rgb(217, 102, 231), rgb(217, 102, 231));
+    opacity: 0.5;
+}
+.foot2_1 {
+    transform: rotate(25deg);
+}
+.foot2_2 {
+    top: -2.5rem;
+    width: 0.88rem;
+    left: 6.9rem;
+    background: linear-gradient(rgb(217, 102, 231) 75%, rrgb(217, 102, 231));
+    opacity: 0.8;
+}
+.foot2_3 {
+    transform: rotate(-25deg);
+    right: 0;
+    background: linear-gradient(rgb(217, 102, 231), rgb(217, 102, 231));
+}
+
+
+.vawes {
+    z-index: 2;
+    position: relative;
+    top: -2rem;
+    left: -2rem;
+    width: 7rem;
+    height: 7rem;
+    fill: none;
+}
+.wave_1,
+.wave_2 {
+    stroke: rgba(227, 227, 227, 0.7);
+    stroke-width: 1;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 2;
+    animation: wave 2s infinite linear;
+    opacity: 0;
+    transform-origin: center;
+    animation-delay: 0.1s;
+}
+.wave_2 {
+    animation-delay: 1s;
+}
+@keyframes wave {
+    from {
+        transform: scale(0.45) rotate(0);
+        opacity: 1;
+    }
+    to {
+        transform: scale(1) rotate(20deg);
+        opacity: 0;
+    }
+}
+@keyframes move {
+    from {
+        transform: rotate(-10deg);
+    }
+    to {
+        transform: rotate(10deg);
+    }
+}
+@keyframes bg {
+    to {
+        background-position: center 20rem;
+    }
+}
+@keyframes eyes {
+    from {
+        transform: translateX(-0.4rem);
+    }
+    to {
+        transform: translateX(0.4rem);
+    }
+}
+@keyframes eye {
+    40% {
+        transform: scaleY(1);
+    }
+    50% {
+        transform: scaleY(0);
+    }
+    60% {
+        transform: scaleY(1);
+    }
+}
