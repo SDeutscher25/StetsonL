@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Snake Game Projectile</title>
+        <title>Snake Game Project</title>
         <style>
             canvas {
                 border: 3px solid #060606;
@@ -21,11 +21,11 @@
             const tileSize = 20;
             const gridSize = canvas.width / tileSize;
 
-            let snake = [{ x: 5, y: 5 }]
-            let foodm = [{ x: 10, y: 10 }]
+            let snake = [{ x: 5, y: 5 }];
+            let food = { x: 10, y: 10 };
             let direction = "right";
 
-            function drawSnake () {
+            function drawSnake() {
                 ctx.fillStyle = "green";
                 snake.forEach(segment => {
                     ctx.fillRect(segment.x * tileSize, segment.y * tileSize, tileSize, tileSize);
@@ -58,7 +58,7 @@
                 snake.unshift(head);
 
                 if (head.x === food.x && head.y === food.y) {
-                    genertateFood();
+                    generateFood();
                 } else {
                     snake.pop();
                 }
