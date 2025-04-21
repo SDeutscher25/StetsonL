@@ -1,14 +1,18 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Snake Game Project</title>
         <style>
+            body{
+                background-color: darkseagreen
+            }
             canvas {
-                border: 3px solid #060606;
+                border: 3px solid darkgreen;
                 margin: 20px auto;
                 display: block;
+                background-color: #DDF2D1
             }
         </style>
     </head>
@@ -16,7 +20,7 @@
         <canvas id="snakeCanvas" width="600" height="600"></canvas>
         <script>
             const canvas = document.getElementById("snakeCanvas");
-            const ctx = canvas.getcontext("2d");
+            const ctx = canvas.getContext("2d");
 
             const tileSize = 20;
             const gridSize = canvas.width / tileSize;
@@ -38,7 +42,7 @@
             }
 
             function moveSnake() {
-                const head = { snake[0] };
+                const head = { ...snake[0] };
 
                 switch (direction) {
                     case "up":
@@ -79,7 +83,7 @@
                 }
 
                 for (let i = 1; i < snake.length; i++) {
-                    if (head.x === snake[i].x && head.y === snake[i].y) {
+                    if (head.x === snake[i].x && head.y === snake[i].y){
                         resetGame();
                     }
                 }
@@ -117,7 +121,7 @@
                 }
             });
 
-            setInterval(updateGame, 100);
+            setInterval(updateGame, 50);
 
             generateFood();
         </script>
