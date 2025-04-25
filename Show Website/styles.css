@@ -1,6 +1,79 @@
-.libre-bodoni-Bodoni {
-  font-family: "Libre Bodoni", serif;
+.quicksand-quicksand {
+  font-family: "Quicksand", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
+}
+section{
+  background-image: url(banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1700px;
+  height: 500px;
+}
+
+.container {
+  font-family: Quicksand;
+  display: grid;
+  grid-template: 1fr/50px 1fr 50px 1fr 50px 1fr 50px 1fr 50px;
+  gap: 0px;
+  width: 1700px;;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffdbbb;
+  text-align: center;
+}
+div {
+  border: solid 1px black;
+}
+p {
+  font-size: 12px;
+}
+.name1{
+  grid-area: 1/2/1/2;
+}
+.image1{
+  grid-area: 2/2/2/2;
+}
+.question1{
+  grid-area: 3/2/3/2;
+}
+.paragraph1{
+  grid-area: 4/2/4/2;
+}
+.name2{
+  grid-area: 1/4/1/4;
+}
+.image2{
+  grid-area: 2/4/2/4;
+}
+.question2{
+  grid-area: 3/4/3/4;
+}
+.paragraph2{
+  grid-area: 4/4/4/4;
+}
+.name3{
+  grid-area: 1/6/1/6;
+}
+.image3{
+  grid-area: 2/6/2/6;
+}
+.question3{
+  grid-area: 3/6/3/6;
+}
+.paragraph3{
+  grid-area: 4/6/4/6;
+}
+.name4{
+  grid-area: 1/8/1/8;
+}
+.image4{
+  grid-area: 2/8/2/8;
+}
+.question4{
+  grid-area: 3/8/3/8;
+}
+.paragraph4{
+  grid-area: 4/8/4/8;
 }
