@@ -4,76 +4,146 @@
   font-weight: 300;
   font-style: normal;
 }
-section{
+body{
   background-image: url(banner.jpg);
+  background-size: 100%;
   background-repeat: no-repeat;
-  background-size: cover;
-  width: 1700px;
-  height: 500px;
+  background-color: #ADADAD
 }
-
 .container {
   font-family: Quicksand;
   display: grid;
   grid-template: 1fr/50px 1fr 50px 1fr 50px 1fr 50px 1fr 50px;
   gap: 0px;
-  width: 1700px;;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #ffdbbb;
+  width: 100%;
+  background-color: #AFAFAF;
   text-align: center;
+  margin-top: 500px;
+}
+.mike, 
+.donna,
+.louis,
+.harvey{
+  border: 2px solid black;
 }
 div {
   border: solid 1px black;
 }
 p {
-  font-size: 12px;
+  font-size: 20px;
+}
+h1{
+  line-height: 0px;
+  font-size: 100px;
+}
+h3 {
+  font-size: 35px
 }
 .name1{
   grid-area: 1/2/1/2;
+  background-color: #DEDEDE;
+  border-top: none;
+  border-bottom: none;
 }
 .image1{
   grid-area: 2/2/2/2;
+  background-color: #DEDEDE;
+  border-top: none;
+  border-bottom: none;
 }
 .question1{
   grid-area: 3/2/3/2;
+  background-color: #DEDEDE;
+  border-top: none;
+  border-bottom: none;
 }
 .paragraph1{
   grid-area: 4/2/4/2;
+  background-color: #DEDEDE;
+  border-top: none;
+  border-bottom: none;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 .name2{
   grid-area: 1/4/1/4;
+  background-color: #DEDEDE;
+  border-top: none;
+  border-bottom: none;
 }
 .image2{
   grid-area: 2/4/2/4;
+  background-color: #DEDEDE;
+  border-top: none;
+  border-bottom: none;
 }
 .question2{
   grid-area: 3/4/3/4;
+  background-color: #DEDEDE;
+  border-top: none;
+  border-bottom: none;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 .paragraph2{
   grid-area: 4/4/4/4;
+  background-color: #DEDEDE;
+  border-top: none;
+  border-bottom: none;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 .name3{
   grid-area: 1/6/1/6;
+  background-color: #DEDEDE;
+  border-top: none;
+  border-bottom: none;
 }
 .image3{
   grid-area: 2/6/2/6;
+  background-color: #DEDEDE;
+  border-top: none;
+  border-bottom: none;
 }
 .question3{
   grid-area: 3/6/3/6;
+  background-color: #DEDEDE;
+  border-top: none;
+  border-bottom: none;
 }
 .paragraph3{
   grid-area: 4/6/4/6;
+  background-color: #DEDEDE;
+  border-top: none;
+  border-bottom: none;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 .name4{
   grid-area: 1/8/1/8;
+  background-color: #DEDEDE;
+  border-top: none;
+  border-bottom: none;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 .image4{
   grid-area: 2/8/2/8;
+  background-color: #DEDEDE;
+  border-top: none;
+  border-bottom: none;
 }
 .question4{
   grid-area: 3/8/3/8;
+  background-color: #DEDEDE;
+  border-top: none;
+  border-bottom: none;
 }
 .paragraph4{
   grid-area: 4/8/4/8;
+  background-color: #DEDEDE;
+  border-top: none;
+  border-bottom: none;
+  padding-right: 10px;
+  padding-left: 10px;
 }
