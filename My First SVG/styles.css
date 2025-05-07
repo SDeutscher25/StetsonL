@@ -1,3 +1,31 @@
-.title {
-    color: green;
+body{
+    background-color:  #a2a2a2
+}
+.nanum-myeongjo-regular {
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h1, h2{
+    font-family: "Nanum Myeongjo", serif;
+}
+.name{
+    position: relative;
+    top: 66px;
+    left: 70px;
+    color: white;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.personal {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+.switzerland {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
 }
