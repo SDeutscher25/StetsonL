@@ -1,0 +1,43 @@
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Atma", system-ui;
+}
+.atma-regular {
+  font-family: "Atma", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+h1 {
+    color: black;
+    font-size: 100px;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    font-size: 50px;
+}
+.strawberry {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.strawberry1 {
+    transform: rotate(-15deg);
+}
+.strawberry2 {
+    transform: rotate(15deg);
+}
+.stem1 {
+    transform: rotate(40deg);
+}
+.stem2 {
+    transform: rotate(67deg);
+}
+.stem3 {
+    transform: rotate(110deg);
+}
+.stem4 {
+    transform: rotate(132deg);
+}

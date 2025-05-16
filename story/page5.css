@@ -1,0 +1,98 @@
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Atma", system-ui;
+}
+.atma-regular {
+    font-family: "Atma", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+h1 {
+    color: black;
+    font-size: 100px;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    font-size: 50px;
+}
+svg .segment1,
+.segment2,
+.segment4,
+.segment5,
+.segment6,
+.segment7,
+.segment8,
+.segment9,
+.segment10,
+.segment11,
+.segment12,
+.segment13,
+.segment14,
+.segment15,
+.segment16,
+.segment17,
+.segment18,
+.segment19,
+.segment20,
+.segment21 {
+    transform-box: fill-box;
+    transform-origin: center;
+}
+.caterpillar {
+    display: flex;
+    justify-content: center;
+}
+.segment1 {
+    transform: rotate(20deg);
+}
+.segment2 {
+    transform: rotate(10deg);
+}
+.segment3 {
+    transform: rotate(2deg);
+}
+.segment4 {
+    transform: rotate(-20deg);
+}
+.segment5 {
+    transform: rotate(-45deg);
+}
+.segment6{
+    transform: rotate(-65deg);
+}
+.segment7{
+    transform: rotate(-65deg);
+}
+.segment8{
+    transform: rotate(-63deg);
+}
+.segment9{
+    transform: rotate(-45deg);
+}
+.segment10{
+    transform: rotate(-30deg);
+}
+.segment11{
+    transform: rotate(-10deg);
+}
+.segment12{
+    transform: rotate(-3deg);
+}
+.segment13{
+    transform: rotate(5deg);
+}
+.segment14{
+    transform: rotate(20deg);
+}
+.segment15{
+    transform: rotate(30deg);
+}
+.segment16{
+    transform: rotate(35deg);
+}
+.segment17{
+    transform: rotate(deg);
+}
