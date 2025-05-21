@@ -5,28 +5,34 @@ body {
     font-family: "Atma", system-ui;
 }
 .atma-regular {
-  font-family: "Atma", system-ui;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Atma", system-ui;
+    font-weight: 400;
+    font-style: normal;
 }
 h1 {
     color: black;
     font-size: 100px;
     text-align: center;
 }
-h2{
+h2 {
     text-align: center;
-    font-size: 50px
+    font-size: 50px;
 }
-.apple{
-    transform: translate(42%, 25%)
+.apple {
+    transform: translate(42%, 0%);
 }
-.apple1{
+.apple1 {
     transform: rotate(63deg);
 }
-.apple2{
+.apple2 {
     transform: rotate(126deg);
 }
-.leaf{
+.leaf {
     transform: rotate(25deg);
+}
+.links {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5%;
 }

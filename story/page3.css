@@ -26,3 +26,9 @@ h2{
 .slice{
     transform: rotate(-79deg);
 }
+.links {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
