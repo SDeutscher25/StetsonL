@@ -18,133 +18,20 @@ h2 {
     text-align: center;
     font-size: 50px;
 }
-svg .segment1,
-.segment2,
-.segment3,
-.segment4,
-.segment5,
-.segment6,
-.segment7,
-.segment8,
-.segment9,
-.segment10,
-.segment11,
-.segment12,
-.segment13,
-.segment14,
-.segment15,
-.segment16,
-.segment17,
-.segment18,
-.segment19,
-.segment20,
-.segment21 {
-    transform-box: fill-box;
-    transform-origin: center;
-}
-.caterpillar {
+.links {
+    position: relative;
     display: flex;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+.orange{
+    display: flex;
+    flex-flow: row nowrap;
     justify-content: center;
 }
-.segment1 {
-    transform: rotate(20deg) translate(35px);
+.stem{
+    transform: translate(-10px, 84px) rotate(-7deg)
 }
-.segment2 {
-    transform: rotate(10deg) translate(51px);
-}
-.segment3 {
-    transform: rotate(-5deg) translate(46px);
-}
-.segment4 {
-    transform: rotate(-35deg) translate(25px);
-}
-.segment5 {
-    transform: rotate(-60deg) translate(30px, -30px);
-}
-.segment6{
-    transform: rotate(-70deg) translate(60px, -60px);
-}
-.segment7{
-    transform: rotate(-70deg) translate(75px, -97px);
-}
-.segment8{
-    transform: rotate(-68deg) translate(80px, -122px);
-}
-.segment9{
-    transform: rotate(-45deg) translate(25px, -180px);
-}
-.segment10{
-    transform: rotate(-30deg) translate(-20px, -199px);
-}
-.segment11{
-    transform: rotate(-10deg) translate(-94px, -191px);
-}
-.segment12{
-    transform: rotate(-3deg) translate(-115px, -179px);
-}
-.segment13{
-    transform: rotate(5deg) translate(-139px, -158px);
-}
-.segment14{
-    transform: rotate(20deg) translate(-165px, -110px);
-}
-.segment15{
-    transform: rotate(40deg) translate(-191px, -24px);
-}
-.segment16{
-    transform: rotate(55deg) translate(-177px, 57px);
-}
-.segment17{
-    transform: rotate(55deg) translate(-170px, 76px);
-}
-.segment18{
-    transform: rotate(55deg) translate(-147px, 117px);
-}
-.segment19{
-    transform: rotate(32deg) translate(-199px, 101px);
-}
-.segment20{
-    transform: rotate(15deg) translate(-206px, 59px);
-}
-.segment21{
-    transform: rotate(5deg) translate(-173px, 22px);
-}
-.eye1{
-    transform: translate(-200px, -30px);
-}
-.eye2{
-    transform: translate(-148px, -30px);
-}
-.innereye1{
-    transform: translate(-148px, -29px);
-}
-.innereye2{
-    transform: translate(-200px, -29px);
-}
-.ear1{
-    transform: rotate(-5deg) translate(-202px, -81px)
-}
-.ear2{
-    transform: rotate(5deg) translate(-132px, -193px)
-}
-.mouth{
-    transform: translate(513px, 121px);
-}
-.leg1{
-    transform: translate(42px, 261px);
-}
-.leg2{
-    transform: rotate(-20deg) translate(-27px, 287px);
-}
-.leg3{
-    transform: rotate(20deg) translate(461px, 6px);
-}
-.leg4{
-    transform: rotate(20deg) translate(491px, 47px);
-}
-.leg5{
-    transform: rotate(7deg) translate(478px, 162px);
-}
-.leg6{
-    transform: rotate(0deg) translate(489px, 270px);
+.leaf{
+    transform: translate(138px, 44px) rotate(55deg)
 }
