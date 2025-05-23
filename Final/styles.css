@@ -1,6 +1,20 @@
 body{
-    background-image;
+    background-image: url(background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .title{
+    background-color: aliceblue;
     text-align: center;
+    border: 2px solid black;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.recipes{
+    display: flex;
+    justify-content: space-evenly;
+}
+.recipe1{
+    background-color: aliceblue;
+    border: 2px solid black;
 }
