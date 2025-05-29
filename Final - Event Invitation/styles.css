@@ -1,0 +1,42 @@
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.title {
+    background-color: aliceblue;
+    text-align: center;
+    border: 2px solid black;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.line, .P{
+    transform: rotate(5deg) translate(100px, 0px)
+}
+.pacersbask{
+    transform: translate(91px, 25px)
+}
+.baskline{
+    transform: translate(41px, 20px)
+}
+.baskline2{
+    transform: translate(86px, 20px)
+}
+.container1, .container2 {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(4, 100px);
+    gap: 0px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    text-align: center;
+    background: aliceblue;
+}
+div {
+    border: solid 1px black;
+}
+.game1{
+    grid-area: 1 / 1 / 1 / 6;
+}
