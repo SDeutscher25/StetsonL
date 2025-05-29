@@ -1,0 +1,51 @@
+body {
+    background-image: url(background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.title {
+    background-color: aliceblue;
+    text-align: center;
+    border: 2px solid black;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.recipes {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.recipe1,
+.recipe2,
+.recipe3 {
+    background-color: aliceblue;
+    border: 2px solid black;
+    margin: 15px;
+    width: 650px;
+    padding: 10px;
+}
+.image {
+    display: flex;
+    justify-content: center;
+}
+.image img {
+    height: 200px;
+    width: auto;
+    margin: 5px;
+}
+h1,
+h2 {
+    text-align: center;
+}
+table {
+    border-spacing: 0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+td {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
